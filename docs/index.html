@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="SandoDelay Multi es una app gratuita para aplicar delay a directos y distribuir la salida RTMP a Twitch, YouTube, Kick y destinos personalizados."
+    >
+    <title>SandoDelay Multi - Delay y multi-stream gratis</title>
+    <link rel="icon" href="assets/icon-32.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="SandoDelay Multi">
+        <img src="assets/logo.png" alt="">
+        <span>SandoDelay Multi</span>
+      </a>
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="#funciones">Funciones</a>
+        <a href="#obs">OBS</a>
+        <a href="#descarga">Descarga</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Gratis para streamers en Windows</p>
+          <h1>SandoDelay Multi</h1>
+          <p class="lead">
+            Aplica delay a tu directo y reparte la senal RTMP a Twitch,
+            YouTube, Kick o cualquier destino personalizado desde una sola app.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#descarga">Descargar gratis</a>
+            <a class="button secondary" href="https://github.com/Sandokito/SandoDelay" rel="noreferrer">Ver codigo</a>
+          </div>
+          <div class="trust">
+            <span>Windows 10/11</span>
+            <span>Sin claves de activacion</span>
+            <span>Stream keys locales</span>
+          </div>
+        </div>
+
+        <div class="product-shot" aria-label="Vista previa de SandoDelay Multi">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="app-preview">
+            <div class="preview-head">
+              <img src="assets/logo.png" alt="">
+              <div>
+                <strong>SandoDelay</strong>
+                <small>CONNECTED</small>
+              </div>
+            </div>
+            <div class="status ready">BUFFER READY</div>
+            <div class="stats">
+              <div><small>STATUS</small><strong>DELAY</strong></div>
+              <div><small>CURRENT</small><strong>30s</strong></div>
+              <div><small>BUFFER</small><strong>42.8s</strong></div>
+              <div><small>MAX</small><strong>120s</strong></div>
+            </div>
+            <div class="platforms">
+              <span class="twitch">Twitch ON</span>
+              <span class="youtube">YouTube ON</span>
+              <span class="kick">Kick READY</span>
+              <span class="custom">RTMP OFF</span>
+            </div>
+            <div class="delay-buttons">
+              <span>LIVE</span>
+              <span>20</span>
+              <span class="active">30</span>
+              <span>40</span>
+              <span>50</span>
+              <span>60</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="funciones" class="section">
+        <div class="section-title">
+          <p class="eyebrow">Hecho para directos reales</p>
+          <h2>Control de delay y destinos en el mismo panel</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Multi-stream RTMP</h3>
+            <p>Activa destinos para Twitch, YouTube, Kick y RTMP personalizado sin rehacer tu escena de OBS.</p>
+          </article>
+          <article>
+            <h3>Delay en directo</h3>
+            <p>Cambia entre directo, presets de 20 a 60 segundos o un valor manual cuando tu flujo lo necesite.</p>
+          </article>
+          <article>
+            <h3>Modo instantaneo o programado</h3>
+            <p>Aplica cambios al momento o prepara una cuenta atras para cambiar el delay con mas calma.</p>
+          </article>
+          <article>
+            <h3>Panel para OBS</h3>
+            <p>Abre el panel local en OBS y controla SandoDelay sin salir de tu espacio de produccion.</p>
+          </article>
+          <article>
+            <h3>Chat Hub</h3>
+            <p>Reune paneles y chats de plataformas para tenerlos cerca durante el directo.</p>
+          </article>
+          <article>
+            <h3>Stream Deck</h3>
+            <p>Incluye plugin para alternar modos, consultar estado y disparar acciones desde botones fisicos.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="obs" class="section split">
+        <div>
+          <p class="eyebrow">Flujo recomendado</p>
+          <h2>OBS envia, SandoDelay retrasa y distribuye</h2>
+          <p>
+            Configura OBS para enviar la salida RTMP a SandoDelay. Despues,
+            SandoDelay se encarga del buffer, el delay y la conexion a tus
+            plataformas activas.
+          </p>
+        </div>
+        <ol class="steps">
+          <li><strong>1</strong><span>Inicia SandoDelay antes del directo.</span></li>
+          <li><strong>2</strong><span>En OBS, envia la salida RTMP a tu servidor local.</span></li>
+          <li><strong>3</strong><span>Guarda tus claves de Twitch, YouTube, Kick o RTMP.</span></li>
+          <li><strong>4</strong><span>Activa los destinos y cambia entre live o delay.</span></li>
+        </ol>
+      </section>
+
+      <section id="descarga" class="download">
+        <div>
+          <p class="eyebrow">Descarga gratuita</p>
+          <h2>Instala SandoDelay Multi en Windows</h2>
+          <p>
+            La version actual se distribuye desde GitHub Releases. El instalador
+            no esta firmado todavia, asi que Windows SmartScreen puede mostrar
+            un aviso de editor desconocido la primera vez.
+          </p>
+        </div>
+        <div class="download-actions">
+          <a class="button primary" href="https://github.com/Sandokito/SandoDelay/releases/latest/download/SandoDelaySetup-v3.0.0.exe" rel="noreferrer">
+            Descargar instalador
+          </a>
+          <a class="button secondary" href="https://github.com/Sandokito/SandoDelay/releases/latest" rel="noreferrer">
+            Ver ultima release
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>SandoDelay Multi</span>
+      <a href="https://github.com/Sandokito/SandoDelay" rel="noreferrer">GitHub</a>
+    </footer>
+  </body>
+</html>
